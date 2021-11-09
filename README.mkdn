@@ -1,6 +1,6 @@
 # Android Open Source Project #
 
-### 用你知道的方式把AOSP源码同步下来 ###
+### Sync AOSP source code ###
 
 ```bash
 
@@ -10,12 +10,12 @@ repo init -u https://android.googlesource.com/platform/manifest -b android-12.0.
 
 git clone https://vm.cooluc.com/AOSP-12/local_manifests .repo/local_manifests -b 12
 
-# 同步源码
+# Sync
 
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
-### 编译 ###
+### Compile ###
 
 ```bash
 
@@ -29,7 +29,7 @@ $ lunch aosp_$device-userdebug
 $ brunch $device
 ```
 
-### 已有源码切换分支 ###
+### Modify source code branch ###
 
 ```bash
 

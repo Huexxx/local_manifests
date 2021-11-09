@@ -57,7 +57,7 @@
   <project path="bionic" name="AOSP-12/bionic" revision="12" remote="github" />
   <project path="build/blueprint" name="AOSP-12/build_blueprint" revision="12" remote="github" />
   <!--project path="device/custom/sepolicy" name="AOSP-12/device_custom_sepolicy" revision="12" remote="github" /-->
-  <project path="vendor/aosp" name="AOSP-12/vendor_aosp" revision="12" remote="github" />
+  <project path="vendor/aosp" name="vendor_huexxx" revision="12" remote="huexxx" />
   <!--project path="vendor/support" name="AOSP-12/vendor_support" revision="12" remote="github" /-->
 
   <!-- External repos -->
@@ -78,7 +78,7 @@
   <!-- Framework repos -->
   <project path="frameworks/av" name="AOSP-12/frameworks_av" revision="12" remote="github" />
   <project path="frameworks/base" name="AOSP-12/frameworks_base" revision="12" remote="github" />
-  <project path="frameworks/native" name="AOSP-12/frameworks_native" revision="12" remote="github" />
+  <project path="frameworks/native" name="frameworks_native" revision="12" remote="huexxx" />
   <project path="frameworks/opt/net/wifi" name="AOSP-12/frameworks_opt_net_wifi" revision="12" remote="github" />
   <project path="frameworks/opt/telephony" name="AOSP-12/frameworks_opt_telephony" revision="12" remote="github" />
 
@@ -102,5 +102,11 @@
   <project path="system/vold" name="AOSP-12/system_vold" revision="12" remote="github" />
   <project path="system/security" name="AOSP-12/system_security" revision="12" remote="github" />
   <project path="system/sepolicy" name="AOSP-12/system_sepolicy" revision="12" remote="github" />
+  
+  <!-- Trees -->
+  <project path="device/xiaomi/chiron" name="device_xiaomi_chiron" revision="12" remote="huexxx" />
+  <project path="device/xiaomi/msm8998-common" name="device_xiaomi_msm8998-common_AOSP" revision="12" remote="huexxx" />
+  <project path="kernel/xiaomi/msm8998" name="kernel_xiaomi_msm8998_AOSP" revision="12" remote="huexxx" />
+  <project path="vendor/xiaomi" name="vendor_xiaomi" revision="12" remote="huexxx" />
 
 </manifest>
