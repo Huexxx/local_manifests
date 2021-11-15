@@ -9,4 +9,6 @@
           fetch="https://gitea.com/sbwml" />
   <remote name="huexxx"
           fetch="https://github.com/Huexxx" />
+  <remote name="proton"
+          fetch="https://github.com/ProtonAOSP" />
 </manifest>
