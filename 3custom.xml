@@ -94,6 +94,7 @@
   <project path="prebuilts/tools-custom" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
 
   <!-- Packages repos -->
+  <project path="packages/apps/Settings" name="packages_apps_settings" revision="12" remote="huexxx" />
   <project path="packages/apps/ThemePicker" name="packages_apps_themepicker" revision="12" remote="huexxx" />
 
   <!-- Recovery Repos -->
