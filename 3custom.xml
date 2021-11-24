@@ -104,6 +104,9 @@
   <project path="system/security" name="AOSP-12/system_security" revision="12" remote="github" />
   <project path="system/sepolicy" name="system_sepolicy" revision="12" remote="huexxx" />
   
+  <!-- Google -->
+  <project path="vendor/gapps" name="vendor_gapps" revision="12" remote="huexxx_bb" />
+  
   <!-- Own Harvest -->
   <project path="vendor/huexxx-prebuilts" name="vendor_huexxx-prebuilts" revision="12" remote="huexxx" />
   <project path="device/xiaomi/chiron" name="device_xiaomi_chiron" revision="12" remote="huexxx" />
