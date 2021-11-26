@@ -99,7 +99,7 @@
   <project path="bootable/recovery" name="AOSP-12/bootable_recovery" revision="12" remote="github" />
 
   <!-- System Repos -->
-  <project path="system/core" name="AOSP-12/system_core" revision="12" remote="github" />
+  <project path="system/core" name="system_core" revision="12" remote="huexxx" />
   <project path="system/vold" name="AOSP-12/system_vold" revision="12" remote="github" />
   <project path="system/security" name="AOSP-12/system_security" revision="12" remote="github" />
   <project path="system/sepolicy" name="system_sepolicy" revision="12" remote="huexxx" />
