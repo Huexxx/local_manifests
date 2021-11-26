@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github"
+          fetch="https://github.com/" />
+  <remote name="gitlab"
+          fetch="https://gitlab.com" />
+  <remote name="huexxx"
+          fetch="https://github.com/Huexxx" />
+  <remote name="huexxx_bb"
+          fetch="https://bitbucket.org/huexxx_77" />
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS"
+          revision="lineage-18.1" />
+  <remote name="proton"
+          fetch="https://github.com/ProtonAOSP"
+          revision="sc" />
+</manifest>
