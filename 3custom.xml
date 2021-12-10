@@ -51,10 +51,12 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <!-- android-12.0.0_r8: Proton's build_soong on android-12.0.0_r7 -->
   <project path="build/soong" name="build_soong" revision="12sc" remote="huexxx" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <!-- android-12.0.0_r8: Proton's bionic on android-12.0.0_r7 -->
   <project path="bionic" name="bionic" revision="12sc" remote="huexxx" />
   <!--project path="device/custom/sepolicy" name="AOSP-12/device_custom_sepolicy" revision="12" remote="github" /-->
   <project path="vendor/aosp" name="vendor_huexxx" revision="12sc_aosp" remote="huexxx" />
@@ -85,7 +87,7 @@
 
   <!-- Hardware repos -->
   <project path="hardware/custom/interfaces" name="AOSP-12/hardware_custom_interfaces" revision="12" remote="github" />
-  <project path="hardware/interfaces" name="hardware_interfaces" revision="12" remote="huexxx" />
+  <project path="hardware/interfaces" name="hardware_interfaces" revision="12sc" remote="huexxx" />
   <project path="hardware/libhardware" name="AOSP-12/hardware_libhardware" revision="12" remote="github" />
 
   <!-- Local_manifests -->
@@ -109,16 +111,16 @@
 
   <!-- Packages repos -->
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="proton" groups="proton" />
-  <project path="packages/apps/Contacts" name="packages_apps_contacts" revision="12sc" remote="huexxx" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="proton" groups="proton" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="proton" groups="proton" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="proton" groups="proton" />
   <project path="packages/apps/ElmyraService" name="android_packages_apps_ElmyraService" remote="proton" groups="proton" />
   <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="proton" groups="proton" />
   <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="proton" groups="proton" />
-  <project path="packages/apps/Launcher3" name="packages_apps_launcher3" revision="12sc" remote="huexxx" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="proton" groups="proton" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="proton" groups="proton" />
   <project path="packages/apps/ProtonWallpaperStub" name="android_packages_apps_ProtonWallpaperStub" remote="proton" groups="proton" />
-  <project path="packages/apps/Settings" name="packages_apps_settings" revision="12sc" remote="huexxx" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="proton" groups="proton" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="proton" groups="proton" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="proton" groups="proton" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_Themepicker" remote="proton" groups="proton" />
@@ -134,10 +136,12 @@
   <!-- System Repos -->
   <project path="art" name="android_art" remote="proton" groups="proton" />
   <project path="libcore" name="android_libcore" remote="proton" groups="proton" />
+  <!-- android-12.0.0_r8: Proton's system_core on android-12.0.0_r7 -->
   <project path="system/core" name="system_core" revision="12sc" remote="huexxx" />
   <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="proton" groups="proton" />
   <project path="system/vold" name="AOSP-12/system_vold" revision="12" remote="github" />
   <project path="system/security" name="system_security" revision="12sc" remote="huexxx" />
+  <!-- android-12.0.0_r8: Proton's system_sepolicy on android-12.0.0_r7 -->
   <project path="system/sepolicy" name="system_sepolicy" revision="12sc" remote="huexxx" />
 
   <!-- Google -->
