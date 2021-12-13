@@ -77,6 +77,7 @@
   <project path="external/nano" name="android_external_nano" remote="proton" groups="proton" />
   <project path="external/noto-fonts" name="android_external_noto-fonts" remote="proton" groups="proton" />
   <project path="external/openssh" name="android_external_openssh" remote="proton" groups="proton" />
+  <project path="external/p7zip" name="android_external_p7zip" remote="proton" groups="proton" />
   <project path="external/pigz" name="android_external_pigz" remote="proton" groups="proton" />
   <project path="external/roboto-fonts" name="android_external_roboto-fonts" remote="proton" groups="proton" />
   <project path="external/rsync" name="android_external_rsync" remote="proton" groups="proton" />
@@ -145,7 +146,7 @@
   <project path="system/sepolicy" name="system_sepolicy" revision="12sc" remote="huexxx" />
 
   <!-- Google -->
-  <project path="vendor/gapps" name="vendor_gapps" revision="12" remote="huexxx_bb" />
+  <project path="vendor/gapps" name="ProtonAOSP/android_vendor_gapps" remote="gitlab" revision="sc" />
 
   <!-- Own Harvest -->
   <project path="vendor/huexxx-prebuilts" name="vendor_huexxx-prebuilts" revision="12" remote="huexxx" />
