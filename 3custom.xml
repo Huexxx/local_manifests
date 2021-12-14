@@ -121,7 +121,7 @@
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="proton" groups="proton" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="proton" groups="proton" />
   <project path="packages/apps/ProtonWallpaperStub" name="android_packages_apps_ProtonWallpaperStub" remote="proton" groups="proton" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="proton" groups="proton" />
+  <project path="packages/apps/Settings" name="packages_apps_settings" revision="12sc" remote="huexxx" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="proton" groups="proton" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="proton" groups="proton" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_Themepicker" remote="proton" groups="proton" />
