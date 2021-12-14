@@ -146,7 +146,7 @@
   <project path="system/sepolicy" name="system_sepolicy" revision="12sc" remote="huexxx" />
 
   <!-- Google -->
-  <project path="vendor/gapps" name="ProtonAOSP/android_vendor_gapps" remote="gitlab" revision="sc" />
+  <project path="vendor/gapps" name="vendor_gapps" revision="12sc" remote="huexxx_bb"/>
   <project path="vendor/gapps2" name="vendor_gapps2" revision="12sc" remote="huexxx" />
 
   <!-- Own Harvest -->
