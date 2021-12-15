@@ -9,19 +9,16 @@
   <project path="external/connectivity" name="android_external_connectivity" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" revision="lineage-19.0" remote="lineage" />
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" revision="lineage-18.1-caf" remote="lineage" />
-  <project path="hardware/qcom-caf/msm8998/audio" name="AOSP-12/hardware_qcom-caf_audio_msm8998" revision="12" remote="github" />
-  <project path="hardware/qcom-caf/msm8998/display" name="AOSP-12/hardware_qcom-caf_display_msm8998" revision="12" remote="github" />
-  <project path="hardware/qcom-caf/msm8998/media" name="AOSP-12/hardware_qcom-caf_media_msm8998" revision="12" remote="github" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_audio_msm8998" revision="12" remote="huexxx" />
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" revision="arrow-12.0-caf-msm8998" remote="arrow" />
+  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" revision="arrow-12.0-caf-msm8998" remote="arrow" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="lineage" />
-  <!-- Try wlan with lineage-19.0 -->
-  <project path="hardware/qcom-caf/wlan" name="AOSP-12/hardware_qcom-caf_wlan" revision="12" remote="github" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" revision="lineage-19.0-caf" remote="lineage" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" revision="lineage-19.0" remote="lineage" />
-  <!-- Try telephony with lineage-19.0 -->
-  <project path="vendor/codeaurora/telephony" name="AOSP-11/vendor_codeaurora_telephony" revision="11" remote="github" />
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" revision="lineage-19.0" remote="lineage" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="lineage" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="lineage" />
-  <!-- Try display with lineage-19.0 -->
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_commonsys-intf_display" remote="proton" groups="proton" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" revision="lineage-19.0" remote="lineage" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="lineage" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="lineage" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="lineage" />
@@ -72,8 +69,8 @@
   <!-- External repos -->
   <project path="external/bash" name="android_external_bash" remote="proton" groups="proton" />
   <project path="external/colorkt" name="android_external_colorkt" remote="proton" groups="proton" />
-  <project path="external/exfat" name="AOSP-11/external_exfat" revision="11" remote="github" />
-  <project path="external/external_ntfs-3g" name="AOSP-11/external_ntfs-3g" revision="11" remote="github" />
+  <project path="external/exfat" name="android_external_exfat" revision="arrow-12.0" remote="arrow" />
+  <project path="external/external_ntfs-3g" name="android_external_ntfs-3g" revision="arrow-12.0" remote="arrow" />
   <project path="external/google-fonts/cutive-mono" name="android_external_google-fonts_cutive-mono" remote="proton" groups="proton" />
   <project path="external/htop" name="android_external_htop" remote="proton" groups="proton" />
   <project path="external/libncurses" name="android_external_libncurses" remote="proton" groups="proton" />
@@ -92,7 +89,7 @@
   <!-- Hardware repos -->
   <project path="hardware/custom/interfaces" name="AOSP-12/hardware_custom_interfaces" revision="12" remote="github" />
   <project path="hardware/interfaces" name="hardware_interfaces" revision="12sc" remote="huexxx" />
-  <project path="hardware/libhardware" name="AOSP-12/hardware_libhardware" revision="12" remote="github" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" revision="arrow-12.0" remote="arrow" />
 
   <!-- Local_manifests -->
 <!--  <project path="local_manifests" name="local_manifests" revision="12sc" remote="huexxx" >
