@@ -61,7 +61,7 @@
   <!--project path="device/custom/sepolicy" name="AOSP-12/device_custom_sepolicy" revision="12" remote="github" /-->
   <project path="vendor/aosp" name="vendor_huexxx" revision="12sc_aosp" remote="huexxx" />
   <project path="vendor/proton" name="android_vendor_proton" remote="proton" groups="proton" /> 
-  <!--project path="vendor/support" name="AOSP-12/vendor_support" revision="12" remote="github" /-->
+  <project path="vendor/support" name="vendor_support" revision="12sc" remote="huexxx" />
 
   <!-- Device repos -->
   <project path="device/common" name="android_device_common" remote="proton" groups="proton" />
