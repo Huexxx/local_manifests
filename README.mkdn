@@ -6,7 +6,7 @@
 
 # Google code
 
-repo init -u https://android.googlesource.com/platform/manifest -b android-12.0.0_r13 --depth=1
+repo init -u https://android.googlesource.com/platform/manifest -b android-12.0.0_r20 --depth=1
 
 # Huexxx code
 
@@ -35,6 +35,6 @@ $ brunch $device
 
 ```bash
 
-$ repo init -b android-12.0.0_r13
+$ repo init -b android-12.0.0_r20
 
 ```

@@ -51,12 +51,10 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <!-- android-12.0.0_r8: Proton's build_soong on android-12.0.0_r7 -->
   <project path="build/soong" name="build_soong" revision="12sc" remote="huexxx" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <!-- android-12.0.0_r8: Proton's bionic on android-12.0.0_r7 -->
   <project path="bionic" name="bionic" revision="12sc" remote="huexxx" />
   <!--project path="device/custom/sepolicy" name="AOSP-12/device_custom_sepolicy" revision="12" remote="github" /-->
   <project path="vendor/aosp" name="vendor_huexxx" revision="12sc_aosp" remote="huexxx" />
@@ -67,6 +65,8 @@
   <project path="device/common" name="android_device_common" remote="proton" groups="proton" />
 
   <!-- External repos -->
+  <project path="external/android-nn-driver" name="android_external_android-nn-driver" remote="proton" groups="proton" />
+  <project path="external/armnn" name="android_external_armnn" remote="proton" groups="proton" />
   <project path="external/bash" name="android_external_bash" remote="proton" groups="proton" />
   <project path="external/colorkt" name="android_external_colorkt" remote="proton" groups="proton" />
   <project path="external/exfat" name="android_external_exfat" revision="arrow-12.0" remote="arrow" />
@@ -137,12 +137,9 @@
   <!-- System Repos -->
   <project path="art" name="android_art" remote="proton" groups="proton" />
   <project path="libcore" name="android_libcore" remote="proton" groups="proton" />
-  <!-- android-12.0.0_r8: Proton's system_core on android-12.0.0_r7 -->
   <project path="system/core" name="system_core" revision="12sc" remote="huexxx" />
-  <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="proton" groups="proton" />
   <project path="system/vold" name="AOSP-12/system_vold" revision="12" remote="github" />
   <project path="system/security" name="system_security" revision="12sc" remote="huexxx" />
-  <!-- android-12.0.0_r8: Proton's system_sepolicy on android-12.0.0_r7 -->
   <project path="system/sepolicy" name="system_sepolicy" revision="12sc" remote="huexxx" />
 
   <!-- Google -->
