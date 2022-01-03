@@ -85,6 +85,7 @@
   <project path="external/tinycompress" name="AOSP-12/external_tinycompress" revision="12" remote="github" />
   <project path="external/vim" name="android_external_vim" remote="proton" groups="proton" />  
   <project path="external/zip" name="android_external_zip" remote="proton" groups="proton" />
+  <project path="external/zlib-ng" name="android_external_zlib-ng" remote="proton" groups="proton" />
 
   <!-- Hardware repos -->
   <project path="hardware/custom/interfaces" name="AOSP-12/hardware_custom_interfaces" revision="12" remote="github" />

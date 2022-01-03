@@ -115,6 +115,7 @@
   <remove-project name="platform/external/openssh" />
   <remove-project name="platform/external/roboto-fonts" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/zlib" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />
