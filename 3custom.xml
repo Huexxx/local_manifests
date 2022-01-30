@@ -131,6 +131,7 @@
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="proton" groups="proton" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="proton" groups="proton" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="proton" groups="proton" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="proton" groups="proton" />
 
   <!-- Recovery Repos -->
   <project path="bootable/recovery" name="AOSP-12/bootable_recovery" revision="12" remote="github" />
