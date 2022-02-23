@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- Device repos -->
+  <remove-project name="platform_device_aosp_sepolicy" />
 
   <!-- General repos -->
   <!--remove-project name="platform_bionic" /-->
