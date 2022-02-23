@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- CodeAurora additions -->
+  <remove-project name="platform_vendor_qcom_opensource_power" />
+
   <!-- Device repos -->
   <remove-project name="platform_device_aosp_sepolicy" />
 

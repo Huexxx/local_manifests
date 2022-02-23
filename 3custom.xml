@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- CodeAurora additions -->
+  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" revision="12" remote="aosp12" />
+
   <!-- Device repos -->
   <project path="device/aosp/sepolicy" name="device_aosp_sepolicy" revision="12.x" remote="huexxx" />
 

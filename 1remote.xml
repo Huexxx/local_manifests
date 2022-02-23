@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote name="aosp12"
+          fetch="https://github.com/AOSP-12" />
+
   <remote name="huexxx"
           fetch="https://github.com/Huexxx" />
 </manifest>
