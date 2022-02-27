@@ -25,6 +25,5 @@
   <!-- Recovery Repos -->
 
   <!-- System Repos -->
-  <remove-project name="platform_system_core" />
 
 </manifest>
