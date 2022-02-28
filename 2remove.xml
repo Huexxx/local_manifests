@@ -2,13 +2,22 @@
 <manifest>
 
   <!-- CodeAurora additions -->
+  <remove-project name="android_vendor_nxp_interfaces_opensource_nfc" />
+  <remove-project name="android_vendor_nxp_opensource_external_libnfc" />
+  <remove-project name="android_vendor_nxp_opensource_frameworks" />
+  <remove-project name="android_vendor_nxp_opensource_packages_apps_Nfc" />
+  <remove-project name="platform_vendor_nxp_opensource_halimpl" />
+  <remove-project name="platform_vendor_nxp_opensource_hidlimpl" />
+  <remove-project name="platform_hardware_qcom-caf_common" />
+  <remove-project name="platform_hardware_qcom_audio" />
+  <remove-project name="platform_hardware_qcom_display" />
+  <remove-project name="platform_hardware_qcom_media" />
   <remove-project name="platform_vendor_qcom_opensource_power" />
 
   <!-- Device repos -->
   <remove-project name="platform_device_aosp_sepolicy" />
 
   <!-- General repos -->
-  <!--remove-project name="platform_bionic" /-->
   <remove-project name="platform_vendor_aosp" />
 
   <!-- External repos -->
