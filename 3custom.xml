@@ -9,11 +9,18 @@
   <project path="external/connectivity" name="android_external_connectivity" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" revision="lineage-19.0" remote="lineage" />
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" revision="lineage-18.1-caf" remote="lineage" />
+  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" revision="lineage-19.0" remote="lineage" >
+    <!-- add guard for AOSP hardware/qcom dir -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- add guards for CAF repositories -->
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+  </project>
   <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_audio_msm8998" revision="12" remote="huexxx" />
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" revision="arrow-12.0-caf-msm8998" remote="arrow" />
   <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" revision="arrow-12.0-caf-msm8998" remote="arrow" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="lineage" />
-  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" revision="lineage-19.0-caf" remote="lineage" />
+  <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" revision="12.x-caf" remote="huexxx" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" revision="lineage-19.0" remote="lineage" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" revision="lineage-19.0" remote="lineage" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="lineage" />
@@ -25,21 +32,11 @@
   <project path="vendor/qcom/opensource/cryptfs_hw" name="AOSP-11/vendor_qcom_opensource_cryptfs_hw" revision="11" remote="github" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="AOSP-11/vendor_qcom_opensource_data-ipa-cfg-mgr" revision="11" remote="github" />
   <project path="vendor/qcom/opensource/dataservices" name="AOSP-11/vendor_qcom_opensource_dataservices" revision="11" remote="github" />
-  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" revision="lineage-19.0" remote="lineage" >
-    <!-- add guard for AOSP hardware/qcom dir -->
-    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
-    <!-- add guards for CAF repositories -->
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
-  </project>
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" revision="lineage-19.0" remote="lineage">
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp" />
   </project>
   <project path="vendor/qcom/opensource/power" name="AOSP-12/vendor_qcom_opensource_power" revision="12" remote="github" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="proton" groups="proton" />
 
   <!-- General repos -->
   <project path="build/make" name="build" revision="12sc" remote="huexxx">
@@ -118,6 +115,7 @@
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="proton" groups="proton" />
   <project path="packages/apps/ElmyraService" name="android_packages_apps_ElmyraService" remote="proton" groups="proton" />
   <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="proton" groups="proton" />
+  <project path="packages/apps/GmsCompat" name="android_packages_apps_GmsCompat" remote="proton" groups="proton" />
   <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="proton" groups="proton" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="proton" groups="proton" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="proton" groups="proton" />
@@ -152,13 +150,13 @@
   <!-- Own Harvest -->
   <project path="vendor/huexxx-prebuilts" name="vendor_huexxx-prebuilts" revision="12" remote="huexxx" />
   <project path="device/xiaomi/chiron" name="device_xiaomi_chiron" revision="12sc" remote="huexxx" />
-  <project path="device/xiaomi/msm8998-common" name="device_xiaomi_msm8998-common" revision="12" remote="huexxx" />
-  <project path="kernel/xiaomi/msm8998" name="kernel_xiaomi_msm8998" revision="12sc" remote="huexxx" />
-  <project path="vendor/xiaomi/chiron" name="vendor_xiaomi_chiron" revision="12" remote="huexxx" />
-  <project path="vendor/xiaomi/msm8998-common" name="vendor_xiaomi_msm8998-common" revision="12" remote="huexxx" />
+  <project path="device/xiaomi/msm8998-common" name="device_xiaomi_msm8998-common" revision="12.aex" remote="huexxx" />
+  <project path="kernel/xiaomi/msm8998" name="kernel_xiaomi_msm8998" revision="12.aex" remote="huexxx" />
+  <project path="vendor/xiaomi/chiron" name="vendor_xiaomi_chiron" revision="12.aex" remote="huexxx" />
+  <project path="vendor/xiaomi/msm8998-common" name="vendor_xiaomi_msm8998-common" revision="12.aex" remote="huexxx" />
   
   <!-- Needed? -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="proton" groups="proton" />
-  <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="proton" groups="proton" />
+
 
 </manifest>
