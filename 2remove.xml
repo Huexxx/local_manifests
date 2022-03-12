@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- CodeAurora additions -->
+  <remove-project name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" />
+  <remove-project name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" />
+  <remove-project name="LineageOS/android_vendor_nxp_opensource_halimpl" />
+  <remove-project name="LineageOS/android_vendor_nxp_opensource_hidlimpl" />
+  <remove-project name="LineageOS/android_hardware_qcom-caf_common" />
+  <remove-project name="LineageOS/android_hardware_qcom_audio" />
+  <remove-project name="LineageOS/android_hardware_qcom_display" />
+  <remove-project name="LineageOS/android_hardware_qcom_media" />
+  <remove-project name="platform_hardware_qcom_wlan" />
+
+  <!-- Device repos -->
+  <remove-project name="platform_device_octavi_sepolicy" />
+
+  <!-- General repos -->
+  <remove-project name="platform_vendor_octavi" />
+
+  <!-- External repos -->
+
+  <!-- Framework repos -->
+  <remove-project name="platform_frameworks_native" />
+  <remove-project name="platform_frameworks_opt_telephony" />
+
+  <!-- Hardware repos -->
+
+  <!-- Packages repos -->
+
+  <!-- Prebuilts Repos -->
+
+  <!-- Recovery Repos -->
+
+  <!-- System Repos -->
+
+</manifest>
