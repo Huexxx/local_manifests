@@ -13,6 +13,9 @@
   <remote name="lineage"
           fetch="https://github.com/LineageOS"
           revision="lineage-18.1" />
+  <remote  name="octavi"
+           fetch="https://github.com/Octavi-OS/"
+           revision="12" />
   <remote name="proton"
           fetch="https://github.com/ProtonAOSP"
           revision="sc" />
