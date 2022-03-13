@@ -8,7 +8,6 @@
     <!-- add guards for CAF repositories -->
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/nxp/Android.bp" />
   </project>
   <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-12.0-caf-msm8998" />
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" revision="arrow-12.0-caf-msm8998" />
@@ -37,9 +36,9 @@
 
   <!-- Own Harvest -->
   <project path="device/xiaomi/chiron" name="device_xiaomi_chiron" revision="12.x" remote="huexxx" />
-  <project path="device/xiaomi/msm8998-common" name="device_xiaomi_msm8998-common" revision="12.x_test" remote="huexxx" />
-  <project path="kernel/xiaomi/msm8998" name="kernel_xiaomi_msm8998" revision="12.x_ok" remote="huexxx" />
+  <project path="device/xiaomi/msm8998-common" name="device_xiaomi_msm8998-common" revision="12.x" remote="huexxx" />
+  <project path="kernel/xiaomi/msm8998" name="kernel_xiaomi_msm8998" revision="12.x" remote="huexxx" />
   <project path="vendor/xiaomi/chiron" name="vendor_xiaomi_chiron" revision="12.x" remote="huexxx" />
-  <project path="vendor/xiaomi/msm8998-common" name="vendor_xiaomi_msm8998-common" revision="12.x_test" remote="huexxx" />
+  <project path="vendor/xiaomi/msm8998-common" name="vendor_xiaomi_msm8998-common" revision="12.x" remote="huexxx" />
 
 </manifest>
