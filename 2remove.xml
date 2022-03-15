@@ -19,6 +19,7 @@
   <remove-project name="platform_vendor_octavi" />
 
   <!-- External repos -->
+  <remove-project name="LineageOS/android_external_ant-wireless_antradio-library" />
 
   <!-- Framework repos -->
   <remove-project name="platform_frameworks_native" />
