@@ -2,4 +2,6 @@
 <manifest>
   <remote name="huexxx"
           fetch="https://github.com/Huexxx" />
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS" />
 </manifest>
