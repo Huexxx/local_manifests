@@ -2,4 +2,6 @@
 <manifest>
   <remote name="huexxx"
           fetch="https://github.com/Huexxx" />
+  <remote name="huexxx_bb"
+          fetch="https://bitbucket.org/huexxx_77" />
 </manifest>
