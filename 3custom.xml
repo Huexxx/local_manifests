@@ -15,7 +15,6 @@
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" revision="12.x-caf" remote="huexxx" />
 
   <!-- Device repos -->
-  <project path="device/aosp/sepolicy" name="device_aosp_sepolicy" revision="12.aex" remote="huexxx" />
 
   <!-- General repos -->
   <project path="vendor/aosp" name="vendor_huexxx" revision="12.aex" remote="huexxx" />

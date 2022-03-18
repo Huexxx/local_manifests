@@ -15,7 +15,6 @@
   <remove-project name="platform_hardware_qcom_wlan" />
 
   <!-- Device repos -->
-  <remove-project name="platform_device_aosp_sepolicy" />
 
   <!-- General repos -->
   <remove-project name="platform_vendor_aosp" />
