@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote name="aex"
+          fetch="https://github.com/AospExtended" />
   <remote name="arcana"
           fetch="https://github.com/projectarcana-aosp" />
-  <remote name="arrow"
-          fetch="https://github.com/ArrowOS" />
   <remote name="github"
           fetch="https://github.com/" />
   <remote name="gitlab"

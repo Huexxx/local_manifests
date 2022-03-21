@@ -2,7 +2,10 @@
 <manifest>
 
   <!-- CodeAurora additions -->
-  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" revision="lineage-19.0-legacy-um" remote="lineage" />
+  <project path="device/aosp/sepolicy" name="device_aosp_sepolicy" revision="12sc" remote="huexxx" />
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="12.x" remote="aex" />
+  <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" revision="12.x" remote="aex" />
+  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="12.x-legacy-um" remote="aex" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" />
   <project path="external/connectivity" name="android_external_connectivity" remote="lineage" />
@@ -52,7 +55,6 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="bionic" name="bionic" revision="12sc" remote="huexxx" />
-  <!--project path="device/custom/sepolicy" name="AOSP-12/device_custom_sepolicy" revision="12" remote="github" /-->
   <project path="vendor/aosp" name="vendor_huexxx" revision="12sc_aosp" remote="huexxx" />
   <project path="vendor/proton" name="android_vendor_proton" remote="proton" groups="proton" /> 
   <project path="vendor/support" name="vendor_support" revision="12sc" remote="huexxx" />
@@ -65,8 +67,8 @@
   <project path="external/armnn" name="android_external_armnn" remote="proton" groups="proton" />
   <project path="external/bash" name="android_external_bash" remote="proton" groups="proton" />
   <project path="external/colorkt" name="android_external_colorkt" remote="proton" groups="proton" />
-  <project path="external/exfat" name="android_external_exfat" revision="arrow-12.0" remote="arrow" />
-  <project path="external/external_ntfs-3g" name="android_external_ntfs-3g" revision="arrow-12.0" remote="arrow" />
+  <project path="external/exfatprogs" name="platform/external/exfatprogs"  groups="pdk" revision="refs/heads/master" />
+  <project path="external/ntfs-3g" name="platform_external_ntfs-3g" revision="12.x" remote="aex" />
   <project path="external/google-fonts/cutive-mono" name="android_external_google-fonts_cutive-mono" remote="proton" groups="proton" />
   <project path="external/htop" name="android_external_htop" remote="proton" groups="proton" />
   <project path="external/libncurses" name="android_external_libncurses" remote="proton" groups="proton" />
@@ -79,6 +81,7 @@
   <project path="external/rsync" name="android_external_rsync" remote="proton" groups="proton" />
   <project path="external/themelib" name="android_external_themelib" remote="proton" groups="proton" />
   <project path="external/tinycompress" name="external_tinycompress" revision="12sc" remote="huexxx" />
+  <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" revision="refs/tags/android-11.0.0_r46" />
   <project path="external/vim" name="android_external_vim" remote="proton" groups="proton" />  
   <project path="external/zip" name="android_external_zip" remote="proton" groups="proton" />
   <project path="external/zlib-ng" name="android_external_zlib-ng" remote="proton" groups="proton" />
@@ -86,7 +89,7 @@
   <!-- Hardware repos -->
   <project path="hardware/aosp/interfaces" name="hardware_aosp_interfaces" revision="12sc" remote="huexxx" />
   <project path="hardware/interfaces" name="hardware_interfaces" revision="12sc" remote="huexxx" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" revision="arrow-12.0" remote="arrow" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" revision="12.x" remote="aex" />
 
   <!-- Local_manifests -->
 <!--  <project path="local_manifests" name="local_manifests" revision="12sc" remote="huexxx" >
@@ -112,7 +115,7 @@
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="proton" groups="proton" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="proton" groups="proton" />
   <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="octavi" />
-  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="octavi" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="proton" groups="proton" />
   <project path="packages/apps/ElmyraService" name="android_packages_apps_ElmyraService" remote="proton" groups="proton" />
   <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="proton" groups="proton" />
   <project path="packages/apps/GmsCompat" name="android_packages_apps_GmsCompat" remote="proton" groups="proton" />
@@ -148,10 +151,11 @@
   <project path="vendor/gapps2" name="vendor_gapps2" revision="12sc" remote="huexxx" />
 
   <!-- Own Harvest -->
+  <project path="device/huexxx/sepolicy" name="device_huexxx_sepolicy" revision="12sc" remote="huexxx" />
   <project path="vendor/huexxx-prebuilts" name="vendor_huexxx-prebuilts" revision="12" remote="huexxx_bb" />
-  <project path="device/xiaomi/chiron" name="device_xiaomi_chiron" revision="12sc_ok" remote="huexxx" />
-  <project path="device/xiaomi/msm8998-common" name="device_xiaomi_msm8998-common" revision="12sc_ok" remote="huexxx" />
-  <project path="kernel/xiaomi/msm8998" name="kernel_xiaomi_msm8998" revision="12sc_ok" remote="huexxx" />
+  <project path="device/xiaomi/chiron" name="device_xiaomi_chiron" revision="12sc" remote="huexxx" />
+  <project path="device/xiaomi/msm8998-common" name="device_xiaomi_msm8998-common" revision="12" remote="huexxx" />
+  <project path="kernel/xiaomi/msm8998" name="kernel_xiaomi_msm8998" revision="12" remote="huexxx" />
   <project path="vendor/xiaomi/chiron" name="vendor_xiaomi_chiron" revision="12" remote="huexxx" />
   <project path="vendor/xiaomi/msm8998-common" name="vendor_xiaomi_msm8998-common" revision="12" remote="huexxx" />
   
