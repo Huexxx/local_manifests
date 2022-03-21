@@ -36,6 +36,7 @@
   <!-- System Repos -->
 
   <!-- Own Harvest -->
+  <project path="device/huexxx/sepolicy" name="device_huexxx_sepolicy" revision="12.aex" remote="huexxx" />
   <project path="vendor/huexxx-prebuilts" name="vendor_huexxx-prebuilts" revision="12" remote="huexxx_bb" />
   <project path="device/xiaomi/chiron" name="device_xiaomi_chiron" revision="12.aex" remote="huexxx" />
   <project path="device/xiaomi/msm8998-common" name="device_xiaomi_msm8998-common" revision="12" remote="huexxx" />
