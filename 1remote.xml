@@ -2,6 +2,8 @@
 <manifest>
   <remote name="aex"
           fetch="https://github.com/AospExtended" />
+  <remote name="aex-lab"
+          fetch="https://gitlab.com/AospExtended" />
   <remote name="arcana"
           fetch="https://github.com/projectarcana-aosp" />
   <remote name="github"
