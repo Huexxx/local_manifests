@@ -147,7 +147,7 @@
   <project path="system/sepolicy" name="system_sepolicy" revision="12sc" remote="huexxx" />
 
   <!-- GApps -->
-  <project path="vendor/google" name="platform_vendor_gapps" clone-depth="1" revision="12.x" remote="aex-lab" />
+  <project path="vendor/google" name="platform_vendor_gapps" clone-depth="1" revision="12.x" remote="huexxx_lab" />
 
   <!-- Own Harvest -->
   <project path="device/huexxx/sepolicy" name="device_huexxx_sepolicy" revision="12sc" remote="huexxx" />

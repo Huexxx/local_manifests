@@ -14,6 +14,8 @@
           fetch="https://github.com/Huexxx" />
   <remote name="huexxx_bb"
           fetch="https://bitbucket.org/huexxx_77" />
+  <remote name="huexxx_lab"
+          fetch="https://gitlab.com/Huexxx" />
   <remote name="lineage"
           fetch="https://github.com/LineageOS"
           revision="lineage-18.1" />
