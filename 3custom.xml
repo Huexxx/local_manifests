@@ -56,7 +56,7 @@
   </project>
   <project path="bionic" name="bionic" revision="12sc" remote="huexxx" />
   <project path="vendor/aosp" name="vendor_huexxx" revision="12sc_aosp" remote="huexxx" />
-  <project path="vendor/proton" name="android_vendor_proton" remote="proton" groups="proton" /> 
+  <project path="vendor/proton" name="vendor_huexxx" revision="12sc" remote="huexxx" groups="proton" /> 
   <project path="vendor/support" name="vendor_support" revision="12sc" remote="huexxx" />
 
   <!-- Device repos -->
