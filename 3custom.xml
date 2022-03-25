@@ -36,6 +36,9 @@
 
   <!-- System Repos -->
 
+  <!-- GApps -->
+  <project path="vendor/google" name="platform_vendor_gapps" clone-depth="1" revision="12.x" remote="huexxx_lab" />
+
   <!-- Own Harvest -->
   <project path="device/huexxx/sepolicy" name="device_huexxx_sepolicy" revision="12.aex" remote="huexxx" />
   <project path="vendor/huexxx-prebuilts" name="vendor_huexxx-prebuilts" revision="12" remote="huexxx_bb" />

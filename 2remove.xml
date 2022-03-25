@@ -37,4 +37,7 @@
 
   <!-- System Repos -->
 
+  <!-- GApps -->
+  <remove-project name="platform_vendor_gapps" />
+
 </manifest>
