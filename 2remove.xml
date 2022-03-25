@@ -29,6 +29,7 @@
   <!-- Hardware repos -->
 
   <!-- Packages repos -->
+  <remove-project name="platform_packages_apps_DeskClock" />
 
   <!-- Prebuilts Repos -->
 

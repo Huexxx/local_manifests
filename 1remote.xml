@@ -6,4 +6,7 @@
           fetch="https://github.com/Huexxx" />
   <remote name="huexxx_bb"
           fetch="https://bitbucket.org/huexxx_77" />
+  <remote name="octavi"
+          fetch="https://github.com/Octavi-OS/"
+          revision="12" />
 </manifest>
