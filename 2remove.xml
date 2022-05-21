@@ -12,6 +12,10 @@
   <remove-project name="android_hardware_qcom_audio" />
   <remove-project name="android_hardware_qcom_display" />
   <remove-project name="android_hardware_qcom_media" />
+  <remove-project name="android_hardware_qcom_wlan" />
+
+  <!-- core -->
+  <remove-project name="platform_build" />
 
   <!-- Device repos -->
   <!--remove-project name="platform_device_aosp_sepolicy" /-->
@@ -20,7 +24,6 @@
   <remove-project name="platform_vendor_aosp" />
 
   <!-- External repos -->
-  <remove-project name="android_external_ant-wireless_antradio-library" />
 
   <!-- Framework repos -->
   <remove-project name="platform_frameworks_native" />
