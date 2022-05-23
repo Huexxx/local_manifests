@@ -38,4 +38,7 @@
 
   <!-- System Repos -->
 
+  <!-- Gapps -->
+  <remove-project name="vendor_google_pixel" />
+
 </manifest>
