@@ -28,7 +28,7 @@
   <!-- Device repos -->
 
   <!-- Gapps -->
-  <project path="vendor/gms" name="android_vendor_gms" revision="12.x" remote="iu" clone-depth="1" />
+  <project path="vendor/gms" name="android_vendor_gms" revision="12.x" remote="huexxx_gl" clone-depth="1" />
 
   <!-- General repos -->
   <project path="vendor/aosp" name="vendor_huexxx" revision="12.x" remote="huexxx" />
