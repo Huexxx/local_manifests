@@ -36,6 +36,7 @@
   <!-- External repos -->
 
   <!-- Framework repos -->
+  <project path="frameworks/base" name="frameworks_base" revision="12.x" remote="huexxx" />
   <project path="frameworks/native" name="frameworks_native" revision="12.x" remote="huexxx" />
 
   <!-- Hardware repos -->

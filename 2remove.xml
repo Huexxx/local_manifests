@@ -26,6 +26,7 @@
   <!-- External repos -->
 
   <!-- Framework repos -->
+  <remove-project name="platform_frameworks_base" />
   <remove-project name="platform_frameworks_native" />
 
   <!-- Hardware repos -->
