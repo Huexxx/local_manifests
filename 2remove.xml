@@ -20,7 +20,6 @@
   <remove-project name="platform_vendor_aosp" />
 
   <!-- External repos -->
-  <remove-project name="platform_external_ant-wireless_antradio-library" />
 
   <!-- Framework repos -->
   <remove-project name="platform_frameworks_native" />
