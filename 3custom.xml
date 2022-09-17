@@ -28,7 +28,7 @@
   <!-- Hardware repos -->
 
   <!-- Packages repos -->
-
+  <project path="packages/apps/Settings" name="packages_apps_settings" groups="pdk-fs" revision="12.1.aex" remote="huexxx" />
   <!-- Prebuilts Repos -->
 
   <!-- Recovery Repos -->

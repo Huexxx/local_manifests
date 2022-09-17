@@ -31,6 +31,7 @@
   <!-- Hardware repos -->
 
   <!-- Packages repos -->
+  <remove-project name="platform_packages_apps_Settings" />
 
   <!-- Prebuilts Repos -->
 
