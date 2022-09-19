@@ -12,7 +12,7 @@
   <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom_audio_caf_msm8998" groups="qcom,qcom_audio,pdk-qcom" remote="huexxx" revision="12" />
   <project path="hardware/qcom-caf/msm8998/display" name="platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="arcana" revision="12.1.x-caf-msm8998" />
   <project path="hardware/qcom-caf/msm8998/media" name="platform_hardware_qcom_media" groups="qcom,pdk-qcom" remote="arcana" revision="12.1.x-caf-msm8998" />
-  <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" revision="12.x-caf" remote="huexxx" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="lineage" revision="lineage-19.1-caf" />
 
   <!-- Device repos -->
 
@@ -23,7 +23,7 @@
 
   <!-- Framework repos -->
   <project path="frameworks/native" name="frameworks_native" revision="12.1.aex" remote="huexxx" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" revision="12.1.x" remote="huexxx" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="lineage" revision="lineage-19.1" />
 
   <!-- Hardware repos -->
 
