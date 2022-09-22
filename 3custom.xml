@@ -29,6 +29,8 @@
 
   <!-- Packages repos -->
   <project path="packages/apps/Settings" name="packages_apps_settings" groups="pdk-fs" revision="12.1.aex" remote="huexxx" />
+  <project path="packages/apps/Extensions" name="packages_apps_extensions" revision="12.1.x" remote="huexxx" />
+  
   <!-- Prebuilts Repos -->
 
   <!-- Recovery Repos -->

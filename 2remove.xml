@@ -32,6 +32,7 @@
 
   <!-- Packages repos -->
   <remove-project name="platform_packages_apps_Settings" />
+  <remove-project name="platform_packages_apps_Extensions" />
 
   <!-- Prebuilts Repos -->
 
