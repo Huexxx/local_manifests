@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Build -->
+
+  <!-- Device repos -->
+
+  <!-- General repos -->
+
+  <!-- External repos -->
+
+  <!-- Framework repos -->
+
+  <!-- Hardware repos -->
+
+  <!-- Packages repos -->
+
+  <!-- Prebuilts Repos -->
+
+  <!-- Recovery Repos -->
+  <remove-project name="android_bootable_recovery" />
+
+  <!-- System Repos -->
+
+  <!-- Vendor Repos -->
+
+</manifest>

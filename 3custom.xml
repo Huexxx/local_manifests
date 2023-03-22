@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Build -->
+
+  <!-- Device repos -->
+
+  <!-- General repos -->
+
+  <!-- External repos -->
+
+  <!-- Framework repos -->
+
+  <!-- Hardware repos -->
+
+  <!-- Packages repos -->
+
+  <!-- Prebuilts Repos -->
+
+  <!-- Recovery Repos -->
+  <project path="bootable/recovery" name="android_bootable_recovery" revision="android-12.1" remote="huexxx" />
+
+  <!-- System Repos -->
+
+  <!-- Vendor Repos -->
+
+  <!-- Own Harvest -->
+  <project path="device/xiaomi/chiron" name="twrp_device_xiaomi_chiron" revision="13" remote="huexxx" />
+
+</manifest>
